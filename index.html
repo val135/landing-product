@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de un excelente producto">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Restaurante Le Carné Gourmet</title>
+</head>
+
+<body>
+    <!--Inicio del header-->
+    <header>
+        <div id=header>
+            <a href="#"><img id="header-img" src="images/logo-le-carne-03.png" alt="Mi tienda"></a>
+            <h1 id="title">Restaurante Le Carné Gourmet</h1>
+        </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="http://lecarnegourmet.com/">Sitio web</a></li>
+                    <li><a class="nav-link" href="#targetproducts">Productos</a></li>
+                    <li><a class="nav-link" href="#">Domicilios</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    <!--Fin del header-->
+
+    <!--seccion del video-->
+    <main>
+        <section class="second">
+            <h2 class="main-section">¡Lo bueno, lo hacemos mejor!</h2>
+            <p>Elaboramos cárnicos saludables, bajos en grasa y sodio.</p>
+            <br>
+            <div class="info"> ***Conoce nuestro restaurante ubicado en el Centro Comercial Arkadia de Medellín***</div>
+            <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/tN4dvYUkCV8" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+        <!--Productos-->
+        <a name="targetproducts"></a>
+
+        <div class="products">
+            <div class="product">
+                <div class="content">
+                    <div class="image-product">
+                        <img src="./images/burgers.jpg" alt="Mi producto">
+                    </div>
+                    <h3>Hamburguesas</h3>
+                    <p>Carne mixta de 150 gr, acompañada de pan artesanal y verduras frescas</p>
+                    <button class="main-btn">Pedir</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="content">
+                    <div class="image-product">
+                        <img src="./images/wraps.jpg" alt="Mi producto">
+                    </div>
+                    <h3>Wraps</h3>
+                    <p>Deliciosa tortilla integral acompañada de tus productos favoritos y aderezos naturales.</p>
+                    <button class="main-btn">Pedir</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="content">
+                    <div class="image-product">
+                        <img src="./images/choripan.jpg" alt="Mi producto">
+                    </div>
+                    <h3>Choripanes</h3>
+                    <p>Choripanes y otros productos saludables Le Carné desde $6.000 pesos.</p>
+                    <button class="main-btn">Pedir</button>
+                </div>
+            </div>
+        </div>
+        <!--Fin de productos-->
+
+        <div class="final">
+            <h3>¡Déjanos tu correo electrónico y recibe un descuento!</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Escribe tu email aquí">
+                <button id="submit" type="email" value="" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+
+</html>

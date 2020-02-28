@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* Variables */
+:root {
+    /* -- colors -- */
+    --red-color: #68181a;
+    --black-color: 313337;
+    --white-color: white;
+    /* -- typo -- */
+    --box: 0px 0 2px 1px #E6E5E9;
+}
+/* ------- end variables -----*/
+
+/*--- header section ----*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black-color);
+   
+}
+
+p, label {
+    font-size: 12px;  
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 20px;
+    background-color: var(--red-color);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top:0;    
+}
+
+.header {
+    position: relative;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    float: left;
+    padding-right: 25px;
+}
+
+header a:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;    
+}
+
+header ul li {   
+    list-style: none;    
+}
+
+#header-img {
+    height: 80px;
+    padding-left: 40px;
+    float: left;
+
+}
+
+#title {
+    color: var(--white-color);
+    float: left;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+#nav-bar {
+    float: right;
+    padding-top: 20px;
+
+}
+
+/*--- main section ----*/
+
+main {
+    margin-top: 200px;
+}
+
+.main-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.second {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+.info {
+    background-color: lightgrey;
+    padding: 15px;
+    width: 670px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section .principal {
+    margin-top: 600px;
+    height: auto;
+}
+
+
+iframe {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.nav-link {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 550;
+    padding-right: 30px;
+}
+
+/*--- products ----*/
+.products {
+    background-image: url('../images/curve.png');
+    padding: 16%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -120px;
+    height: 250px;
+} 
+
+.product { 
+    padding: 20px;
+    margin-top: 0px;
+    width: 250px;
+}
+
+.image-product {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background: var(--white-color);
+    border-radius: 3px;
+    box-shadow: var(--box);
+}
+
+.main-btn {
+    padding: var(--space);
+    background-color: var(--red-color);
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+.main-btn:hover {
+    background-color: #63a426;  
+}
+
+
+.final {
+    text-align: center;
+    padding-top: 40px;
+    background-color: lightgray;
+    height: 150px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .final {
+      display: none;
+    }
+  }
+
+input {
+    width: 350px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+button {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#email {
+    padding-left: 10px;
+}
